@@ -1,7 +1,8 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta name="google-site-verification" content="k2RoYtyoCeiTJmbsMWp312F2gElFygjbS2T97p4VlIQ" />
+  <meta name="google-site-verification" content="k2RoYtyoCeiTJmbsMWp312F2gElFygjbS2T97p4VlIQ" />
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="description" content="Julia Hayes Architecture — Architectural design portfolio.">
@@ -37,7 +38,7 @@ img { width: 100%; display: block; object-fit: cover; }
 
 .container {
   width: 86%;
-  max-width: 1200px;
+   max-width: 1200px;
   margin: auto;
 }
 
@@ -114,7 +115,7 @@ header {
     linear-gradient(90deg, rgba(0,0,0,.65), rgba(0,0,0,.05)),
     url("https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?auto=format&fit=crop&w=2000&q=85")
     center / cover;
-}
+  }
 
 .hero-content {
   width: 86%;
@@ -129,7 +130,7 @@ header {
   font-family: Georgia, serif;
   font-size: clamp(52px, 9vw, 105px);
   font-weight: normal;
-  line-height: 1.05;
+   line-height: 1.05;
   margin: 25px 0;
 }
 
@@ -207,7 +208,7 @@ header {
   margin-bottom: 45px;
   gap: 20px;
 }
-
+  
 .section-heading h2 {
   font-family: Georgia, serif;
   font-size: clamp(36px, 5vw, 55px);
@@ -246,12 +247,7 @@ header {
   background: #ddd;
 }
 
-.project-photo img {
-  height: 100%;
-  transition: transform .6s;
-}
-
-.project-card:hover img { transform: scale(1.05); }
+  .project-card:hover img { transform: scale(1.05); }
 
 .project-number {
   position: absolute;
@@ -290,7 +286,7 @@ header {
 
 .philosophy {
   background: #111;
-  color: white;
+    color: white;
   padding: 120px 0;
 }
 
@@ -329,7 +325,7 @@ header {
   height: 300px;
   object-fit: contain;
   background: #f7f7f7;
-}
+  }
 
 .drawing-caption { padding: 17px 5px; }
 
@@ -368,7 +364,7 @@ header {
 .about-copy p {
   color: #666;
   font-size: 14px;
-  line-height: 2;
+    line-height: 2;
   margin-bottom: 15px;
 }
 
@@ -407,7 +403,7 @@ footer {
   background: black;
   color: white;
   padding: 35px 7%;
-  display: flex;
+    display: flex;
   justify-content: space-between;
   gap: 20px;
   font-size: 10px;
@@ -484,7 +480,7 @@ footer span:last-child { color: #aaa; }
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 20px;
-}
+  }
 
 .detail-gallery img {
   height: 300px;
@@ -523,7 +519,7 @@ footer span:last-child { color: #aaa; }
   border: none;
   font-size: 38px;
 }
-
+  
 /* MOBILE */
 
 @media(max-width: 700px) {
@@ -563,7 +559,7 @@ footer span:last-child { color: #aaa; }
 
   .section { padding: 75px 0; }
 
-  .section-heading {
+   .section-heading {
     align-items: flex-start;
     flex-direction: column;
   }
@@ -592,7 +588,7 @@ footer span:last-child { color: #aaa; }
   <div class="nav-links" id="nav-links">
     <a href="#home">Home</a>
     <a href="#work">Projects</a>
-    <a href="#drawings">Drawings</a>
+    <a href="#drawings">Achievements</a>
     <a href="#philosophy">Philosophy</a>
     <a href="#about">About</a>
     <a href="#contact">Contact</a>
@@ -602,13 +598,13 @@ footer span:last-child { color: #aaa; }
 
 <!-- HOMEPAGE -->
 
-<main id="home-view">
+  <main id="home-view">
 
 <section class="hero" id="home">
   <div class="hero-content">
     <div class="eyebrow">Independent Architecture Portfolio</div>
 
-    <h1>Spaces.<br>Structure.<br>Perspective.</h1>
+    <h1>Spaces.<br>Structure.<br>Creativity.</h1>
 
     <p>
      An exploration of architecture, interior
@@ -632,8 +628,8 @@ footer span:last-child { color: #aaa; }
   <div class="intro-copy">
     <p>
       Welcome to Julia Hayes Architecture, a personal
-      portfolio exploring the possibilities of
-      architectural and interior design.
+      portfolio exploring the digital journey of my architectural
+      studies.
     </p>
 
     <p style="margin-top:18px">
@@ -657,59 +653,59 @@ footer span:last-child { color: #aaa; }
       <div class="eyebrow">02 / Portfolio</div>
       <h2>Selected Projects</h2>
     </div>
-    <p>Architecture · Interiors · Concepts</p>
+    <p>Architecture · Interior · Concepts</p>
   </div>
 
   <div class="project-grid">
 
-    <button class="project-card" onclick="openProject('residence')">
+    <button class="project-card" onclick="openProject('Journey')">
       <div class="project-photo">
-        <img src="https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?auto=format&fit=crop&w=1200&q=85"
-          alt="Modern residential architecture">
+        <img src="images/Journey-photo.jpg"
+          alt="The Start Of The Journey">
         <span class="project-number">01</span>
       </div>
       <div class="project-info">
-        <h3>The Modern Residence</h3>
-        <p>RESIDENTIAL ARCHITECTURE · CONCEPT</p>
+        <h3>The Start Of The Journey</h3>
+        <p>CAD BASICS AND HAND-DRAWN DRAFTS · INITIAL LAYOUTS</p>
         <span class="view-project">Explore project →</span>
       </div>
     </button>
 
-    <button class="project-card" onclick="openProject('interior')">
+    <button class="project-card" onclick="openProject('Spaces')">
       <div class="project-photo">
-        <img src="https://images.unsplash.com/photo-1600210492486-724fe5c67fb0?auto=format&fit=crop&w=1200&q=85"
-          alt="Modern luxury interior">
+        <img src="images/Dream Room Presentation Board - Julia Hayes - Architectural Drafting.png"
+          alt="Spaces In Simplicity">
         <span class="project-number">02</span>
-      </div>
+         </div>
       <div class="project-info">
-        <h3>Quiet Living</h3>
+        <h3>Spaces In Simplicity</h3>
         <p>INTERIOR DESIGN · SPATIAL PLANNING</p>
         <span class="view-project">Explore project →</span>
       </div>
     </button>
 
-    <button class="project-card" onclick="openProject('structure')">
+    <button class="project-card" onclick="openProject('Habitats')">
       <div class="project-photo">
-        <img src="https://images.unsplash.com/photo-1511818966892-d7d671e672a2?auto=format&fit=crop&w=1200&q=85"
-          alt="Architectural structure">
+        <img src="images/Floor Plan - American Home.jpg"
+          alt="Modern Habitats">
         <span class="project-number">03</span>
       </div>
       <div class="project-info">
-        <h3>Form & Structure</h3>
-        <p>ARCHITECTURAL STUDY · FORM</p>
+        <h3>Modern Habitats</h3>
+        <p>DRAFTED HOME DESIGNS · STRUCTURES</p>
         <span class="view-project">Explore project →</span>
       </div>
     </button>
 
-    <button class="project-card" onclick="openProject('retreat')">
+    <button class="project-card" onclick="openProject('Legans')">
       <div class="project-photo">
-        <img src="https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?auto=format&fit=crop&w=1200&q=85"
-          alt="Modern private retreat">
+        <img src="images/What is Architecture - Julia Hayes - Architectural Drafting.png"
+          alt="Inspiration Of Legans">
         <span class="project-number">04</span>
       </div>
       <div class="project-info">
-        <h3>The Private Retreat</h3>
-        <p>RESIDENTIAL CONCEPT · LANDSCAPE</p>
+        <h3>Inspiration Of Legans</h3>
+        <p>EXTRODINARY ARCHITECTS · INFORMATION</p>
         <span class="view-project">Explore project →</span>
       </div>
     </button>
@@ -720,24 +716,28 @@ footer span:last-child { color: #aaa; }
 
 <!-- DESIGN PHILOSOPHY -->
 
-<section class="philosophy" id="philosophy">
+    <section class="philosophy" id="philosophy">
 <div class="container">
 
   <div class="eyebrow">03 / Design Philosophy</div>
 
   <h2>
-    "The most meaningful spaces are designed
-    around the people who experience them."
+    "Architecture is not simply the creation of structures, but the art of shaping
+     the spaces in which life unfolds."
   </h2>
 
   <p>
-    My approach to architecture is rooted in the
-    balance between beauty and functionality.
-    I am interested in how natural light, materials,
-    proportion, and spatial organization can shape
-    the way people experience their surroundings.
-    I believe good design should feel intentional,
-    thoughtful, and lasting.
+    I believe meaningful architecture exists at the intersection
+    of beauty, functionality, and human experience.
+       A successful space should not only serve a purpose but also
+    create an atmosphere, encourage interaction, and evoke a sense
+    of belonging.
+       I am particularly interested in the balance between modern
+    simplicity and thoughtful detail, exploring how natural light,
+    materiality, proportion, and spatial relationships contribute
+    to an evironment.
+       My design philosophy continues to develop through observation,
+    experimentation, and creative exploration.
   </p>
 
 </div>
@@ -756,8 +756,8 @@ footer span:last-child { color: #aaa; }
 
 <div class="drawings-grid">
 
-  <div class="drawing-card">
-    <img src="https://images.unsplash.com/photo-1503387762-592deb58ef4e?auto=format&fit=crop&w=1000&q=85"
+    <div class="drawing-card">
+    <img src="https://images.unsplash.com/photo-1503387762-592deb58ef4e?auto=format&fit=crop&w=1000&q=8>
       alt="Architectural drawings">
     <div class="drawing-caption">
       <h3>Architectural Studies</h3>
@@ -766,7 +766,7 @@ footer span:last-child { color: #aaa; }
   </div>
 
   <div class="drawing-card">
-    <img src="https://images.unsplash.com/photo-1504307651254-35680f356dfd?auto=format&fit=crop&w=1000&q=85"
+    <img src="https://images.unsplash.com/photo-1504307651254-35680f356dfd?auto=format&fit=crop&w=1000&>
       alt="Architectural construction study">
     <div class="drawing-caption">
       <h3>Material & Structure</h3>
@@ -782,8 +782,8 @@ footer span:last-child { color: #aaa; }
 <section class="about-section section" id="about">
 <div class="container about-grid">
 
-  <img src="https://images.unsplash.com/photo-1487958449943-2429e8be8625?auto=format&fit=crop&w=1000&q=85"
-    alt="Contemporary architecture">
+  <img src="images/about-photo.jpg"
+    alt="Julia Hayes">
 
   <div class="about-copy">
     <div class="eyebrow">05 / About the Designer</div>
@@ -794,7 +794,7 @@ footer span:last-child { color: #aaa; }
       I am an aspiring architectural designer with
       an interest in residential architecture,
       interior spaces, and creative problem-solving.
-    </p>
+          </p>
 
     <p>
       I enjoy exploring how a simple idea can
@@ -834,7 +834,7 @@ footer span:last-child { color: #aaa; }
 
 <!-- INDIVIDUAL PROJECT PAGE -->
 
-<section id="project-view">
+  <section id="project-view">
 
   <div class="detail-hero">
     <img id="detail-hero-image" src="" alt="">
@@ -873,11 +873,11 @@ footer span:last-child { color: #aaa; }
   <button class="close-lightbox"
     onclick="closeLightbox()" aria-label="Close image">×</button>
   <img id="lightbox-image" src="" alt="Expanded project image">
-</div>
+  </div>
 
 <footer>
   <span>© 2026 JULIA HAYES ARCHITECTURE</span>
-  <span>ARCHITECTURE · INTERIORS · DESIGN</span>
+  <span>ARCHITECTURE · INTERIOR · DESIGNS</span>
 </footer>
 
 <script>
@@ -886,52 +886,51 @@ footer span:last-child { color: #aaa; }
 
 const projects = {
 
-  residence: {
-    number: "01 / RESIDENTIAL",
-    title: "The Modern Residence",
-    category: "Residential Architecture · Concept Design",
+  Journey: {
+    number: "01 / THE BEGINNING",
+    title: "The Start Of The Journey",
+    category: "CAD BASICS AND HAND-DRAWN DRAFTS · INITIAL LAYOUTS",
     heading: "A study in modern living.",
     description:
-      "This conceptual residential project explores the relationship between indoor and outdoor living. The design focuses on natural light, clean architectural forms, thoughtful circulation, and a connection to the surrounding environment.",
+      "This conceptual residential project explores the relationship between indoor and outdoor living.>
     images: [
       "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?auto=format&fit=crop&w=1200&q=85",
       "https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?auto=format&fit=crop&w=1200&q=85"
     ]
   },
 
-  interior: {
-    number: "02 / INTERIORS",
-    title: "Quiet Living",
-    category: "Interior Design · Spatial Planning",
+  Simplictiy: {
+    number: "02 / ROOMS",
+    title: "Spaces In Simplicity",
+    category: "PERSONALIZED ROOM DRAFTS · INTERIOR",
     heading: "Creating a sense of calm.",
     description:
-      "This interior concept explores a restrained material palette, natural textures, and functional spaces. The goal is to create an environment that feels comfortable, balanced, and connected to everyday life.",
+      "This interior concept explores a restrained material palette, natural textures, and functional s>
     images: [
       "https://images.unsplash.com/photo-1600210492486-724fe5c67fb0?auto=format&fit=crop&w=1200&q=85",
       "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?auto=format&fit=crop&w=1200&q=85"
     ]
   },
-
-  structure: {
-    number: "03 / ARCHITECTURAL STUDY",
-    title: "Form & Structure",
-    category: "Architectural Study · Form and Composition",
+  Habitats: {
+    number: "03 / HOMES",
+    title: "Modern Habitats",
+    category: "DRAFTED HOME DESIGINS · STRUCTURES",
     heading: "Exploring architectural expression.",
     description:
-      "This study investigates how proportion, geometry, structure, and material choices influence architectural form. It explores the relationship between visual composition and practical design.",
+      "This study investigates how proportion, geometry, structure, and material choices influence arch>
     images: [
       "https://images.unsplash.com/photo-1511818966892-d7d671e672a2?auto=format&fit=crop&w=1200&q=85",
       "https://images.unsplash.com/photo-1487958449943-2429e8be8625?auto=format&fit=crop&w=1200&q=85"
     ]
   },
 
-  retreat: {
-    number: "04 / RESIDENTIAL CONCEPT",
-    title: "The Private Retreat",
-    category: "Residential Concept · Landscape",
+  Legans: {
+    number: "04 / INSPO",
+    title: "Inspiration Of Legans",
+    category: "EXTRODINARY ARCHITECTS · INFORMATION",
     heading: "Architecture in conversation with nature.",
     description:
-      "This concept considers the relationship between a home and its natural setting. The design explores privacy, outdoor spaces, natural light, and materials that complement the surrounding landscape.",
+      "This concept considers the relationship between a home and its natural setting. The design explo>
     images: [
       "https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?auto=format&fit=crop&w=1200&q=85",
       "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?auto=format&fit=crop&w=1200&q=85"
@@ -951,7 +950,7 @@ function openProject(id) {
   document.getElementById("site-header").style.display = "none";
 
   document.getElementById("detail-number").textContent = project.number;
-  document.getElementById("detail-title").textContent = project.title;
+   document.getElementById("detail-title").textContent = project.title;
   document.getElementById("detail-category").textContent = project.category;
   document.getElementById("detail-heading").textContent = project.heading;
   document.getElementById("detail-description").textContent = project.description;
@@ -990,7 +989,7 @@ function closeProject() {
 /* IMAGE GALLERY */
 
 function openLightbox(src) {
-  document.getElementById("lightbox-image").src = src;
+    document.getElementById("lightbox-image").src = src;
   document.getElementById("lightbox").classList.add("open");
 }
 
@@ -1029,6 +1028,8 @@ window.addEventListener("popstate", function() {
 });
 
 </script>
-
+  
 </body>
 </html>
+
+  
