@@ -1,8 +1,7 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta name="google-site-verification" content="k2RoYtyoCeiTJmbsMWp312F2gElFygjbS2T97p4VlIQ" />
+<meta name="google-site-verification" content="k2RoYtyoCeiTJmbsMWp312F2gElFygjbS2T97p4VlIQ" />
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="description" content="Julia Hayes Architecture — Architectural design portfolio.">
@@ -38,7 +37,7 @@ img { width: 100%; display: block; object-fit: cover; }
 
 .container {
   width: 86%;
-   max-width: 1200px;
+    max-width: 1200px;
   margin: auto;
 }
 
@@ -77,7 +76,7 @@ header {
 }
 
 .brand span {
-  display: block;
+    display: block;
   font-family: Arial, sans-serif;
   font-size: 8px;
   letter-spacing: 3px;
@@ -130,7 +129,7 @@ header {
   font-family: Georgia, serif;
   font-size: clamp(52px, 9vw, 105px);
   font-weight: normal;
-   line-height: 1.05;
+  line-height: 1.05;
   margin: 25px 0;
 }
 
@@ -154,7 +153,7 @@ header {
   text-transform: uppercase;
 }
 
-.button.outline {
+  .button.outline {
   background: transparent;
   color: white;
 }
@@ -193,7 +192,7 @@ header {
   margin-top: 25px;
   padding-bottom: 5px;
   border-bottom: 1px solid black;
-  font-size: 10px;
+    font-size: 10px;
   letter-spacing: 2px;
 }
 
@@ -208,7 +207,7 @@ header {
   margin-bottom: 45px;
   gap: 20px;
 }
-  
+
 .section-heading h2 {
   font-family: Georgia, serif;
   font-size: clamp(36px, 5vw, 55px);
@@ -232,7 +231,7 @@ header {
 }
 
 .project-card {
-  display: block;
+    display: block;
   width: 100%;
   border: none;
   background: transparent;
@@ -247,7 +246,12 @@ header {
   background: #ddd;
 }
 
-  .project-card:hover img { transform: scale(1.05); }
+.project-photo img {
+  height: 100%;
+  transition: transform .6s;
+}
+
+.project-card:hover img { transform: scale(1.05); }
 
 .project-number {
   position: absolute;
@@ -266,14 +270,7 @@ header {
   font-weight: normal;
 }
 
-.project-info p {
-  color: var(--gray);
-  font-size: 11px;
-  letter-spacing: 1px;
-  margin-top: 5px;
-}
-
-.view-project {
+  .view-project {
   display: inline-block;
   margin-top: 13px;
   padding-bottom: 4px;
@@ -286,7 +283,7 @@ header {
 
 .philosophy {
   background: #111;
-    color: white;
+  color: white;
   padding: 120px 0;
 }
 
@@ -312,7 +309,7 @@ header {
 
 .drawings-grid {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
   gap: 25px;
 }
 
@@ -325,7 +322,7 @@ header {
   height: 300px;
   object-fit: contain;
   background: #f7f7f7;
-  }
+}
 
 .drawing-caption { padding: 17px 5px; }
 
@@ -352,7 +349,7 @@ header {
   align-items: center;
 }
 
-.about-grid img { height: 480px; }
+  .about-grid img { height: 480px; }
 
 .about-copy h2 {
   font-family: Georgia, serif;
@@ -364,7 +361,7 @@ header {
 .about-copy p {
   color: #666;
   font-size: 14px;
-    line-height: 2;
+  line-height: 2;
   margin-bottom: 15px;
 }
 
@@ -391,7 +388,7 @@ header {
   display: inline-block;
   background: black;
   color: white;
-  padding: 16px 30px;
+   padding: 16px 30px;
   margin-top: 30px;
   font-size: 10px;
   letter-spacing: 2px;
@@ -403,7 +400,7 @@ footer {
   background: black;
   color: white;
   padding: 35px 7%;
-    display: flex;
+  display: flex;
   justify-content: space-between;
   gap: 20px;
   font-size: 10px;
@@ -429,7 +426,7 @@ footer span:last-child { color: #aaa; }
 .detail-hero img {
   height: 100%;
   opacity: .75;
-}
+  }
 
 .detail-title {
   position: absolute;
@@ -468,7 +465,7 @@ footer span:last-child { color: #aaa; }
   font-family: Georgia, serif;
   font-size: 32px;
   font-weight: normal;
-}
+  }
 
 .project-description p {
   color: #666;
@@ -480,7 +477,7 @@ footer span:last-child { color: #aaa; }
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 20px;
-  }
+}
 
 .detail-gallery img {
   height: 300px;
@@ -507,7 +504,7 @@ footer span:last-child { color: #aaa; }
   max-height: 85vh;
   width: auto;
   height: auto;
-  object-fit: contain;
+    object-fit: contain;
 }
 
 .close-lightbox {
@@ -519,7 +516,7 @@ footer span:last-child { color: #aaa; }
   border: none;
   font-size: 38px;
 }
-  
+
 /* MOBILE */
 
 @media(max-width: 700px) {
@@ -546,7 +543,7 @@ footer span:last-child { color: #aaa; }
   .about-grid,
   .project-description {
     grid-template-columns: 1fr;
-    gap: 30px;
+       gap: 30px;
   }
 
   .project-grid,
@@ -559,7 +556,7 @@ footer span:last-child { color: #aaa; }
 
   .section { padding: 75px 0; }
 
-   .section-heading {
+  .section-heading {
     align-items: flex-start;
     flex-direction: column;
   }
@@ -584,8 +581,8 @@ footer span:last-child { color: #aaa; }
 
   <button class="menu-button" id="menu-button"
     aria-label="Open navigation">☰</button>
-
-  <div class="nav-links" id="nav-links">
+  
+ <div class="nav-links" id="nav-links">
     <a href="#home">Home</a>
     <a href="#work">Projects</a>
     <a href="#drawings">Achievements</a>
@@ -598,7 +595,7 @@ footer span:last-child { color: #aaa; }
 
 <!-- HOMEPAGE -->
 
-  <main id="home-view">
+<main id="home-view">
 
 <section class="hero" id="home">
   <div class="hero-content">
@@ -607,9 +604,10 @@ footer span:last-child { color: #aaa; }
     <h1>Spaces.<br>Structure.<br>Creativity.</h1>
 
     <p>
-     An exploration of architecture, interior
-     evironments, and the relationship between
-     design and everyday life.
+     This portfolio represents my developing perspective on
+     architecture throughout my educational journey, combining
+     my interests in spatial designs, creativity, and the relationship
+     between people and their environments.
     </p>
 
     <a class="button" href="#work">Explore My Work</a>
@@ -623,7 +621,7 @@ footer span:last-child { color: #aaa; }
   <div>
     <div class="eyebrow">01 / Introduction</div>
     <h2>Architecture begins with an idea.</h2>
-  </div>
+     </div>
 
   <div class="intro-copy">
     <p>
@@ -662,7 +660,7 @@ footer span:last-child { color: #aaa; }
       <div class="project-photo">
         <img src="images/Journey-photo.jpg"
           alt="The Start Of The Journey">
-        <span class="project-number">01</span>
+            <span class="project-number">01</span>
       </div>
       <div class="project-info">
         <h3>The Start Of The Journey</h3>
@@ -671,12 +669,12 @@ footer span:last-child { color: #aaa; }
       </div>
     </button>
 
-    <button class="project-card" onclick="openProject('Spaces')">
-      <div class="project-photo">
-        <img src="images/Dream Room Presentation Board - Julia Hayes - Architectural Drafting.png"
-          alt="Spaces In Simplicity">
-        <span class="project-number">02</span>
-         </div>
+    <button class="project-card" onclick="openProject('Simplicity')">
+    <div class="project-photo">
+    <img src="images/Dream Room
+     alt="Spaces In Simplicity">
+    <span class="project-number">02</span>
+     </div>
       <div class="project-info">
         <h3>Spaces In Simplicity</h3>
         <p>INTERIOR DESIGN · SPATIAL PLANNING</p>
@@ -701,11 +699,11 @@ footer span:last-child { color: #aaa; }
       <div class="project-photo">
         <img src="images/What is Architecture - Julia Hayes - Architectural Drafting.png"
           alt="Inspiration Of Legans">
-        <span class="project-number">04</span>
+           <span class="project-number">04</span>
       </div>
       <div class="project-info">
         <h3>Inspiration Of Legans</h3>
-        <p>EXTRODINARY ARCHITECTS · INFORMATION</p>
+        <p>EXTRAORDINARY ARCHITECTS · INFORMATION</p>
         <span class="view-project">Explore project →</span>
       </div>
     </button>
@@ -716,14 +714,13 @@ footer span:last-child { color: #aaa; }
 
 <!-- DESIGN PHILOSOPHY -->
 
-    <section class="philosophy" id="philosophy">
-<div class="container">
+<section class="philosophy" id="philosophy">
+<div class="container"
 
   <div class="eyebrow">03 / Design Philosophy</div>
 
   <h2>
-    "Architecture is not simply the creation of structures, but the art of shaping
-     the spaces in which life unfolds."
+    "Architecture should speak of its time and places, but yearn for timelessness." - Frank Gehry
   </h2>
 
   <p>
@@ -734,13 +731,13 @@ footer span:last-child { color: #aaa; }
     of belonging.
        I am particularly interested in the balance between modern
     simplicity and thoughtful detail, exploring how natural light,
-    materiality, proportion, and spatial relationships contribute
+    materials, proportion, and spatial relationships contribute
     to an evironment.
        My design philosophy continues to develop through observation,
     experimentation, and creative exploration.
   </p>
 
-</div>
+  </div>
 </section>
 
 <!-- FLOOR PLANS AND SKETCHES -->
@@ -749,29 +746,37 @@ footer span:last-child { color: #aaa; }
 <div class="section-heading">
   <div>
     <div class="eyebrow">04 / Design Process</div>
-    <h2>Drawings & Explorations</h2>
+    <h2>Achievements</h2>
   </div>
-  <p>Plans · Sketches · Studies</p>
+  <p>High School Elective Studies</p>
 </div>
 
 <div class="drawings-grid">
 
-    <div class="drawing-card">
+  <div class="drawing-card">
     <img src="https://images.unsplash.com/photo-1503387762-592deb58ef4e?auto=format&fit=crop&w=1000&q=8>
-      alt="Architectural drawings">
+      alt="CAD Models">
     <div class="drawing-caption">
-      <h3>Architectural Studies</h3>
-      <p>Concept sketches and design development</p>
+      <h3>CAD</h3>
+      <p>Grades 9 & 10 -
+       For typical students, the proper structure of CAD electives
+      is in order from CAD1, CAD2, then Architectural Drafting.
+      However, for myself I excelled differently. I took CAD1 my freshamn year,
+      then my sophomore year I was unable to participate in CAD2 due to my schedule
+      but with communication between myself and my architecture teacher, I was able to
+      sit in during a CAD1 class and independently continue to develop my skills through
+      AutoCAD as well as Chief Architect.</p>
     </div>
   </div>
 
   <div class="drawing-card">
-    <img src="https://images.unsplash.com/photo-1504307651254-35680f356dfd?auto=format&fit=crop&w=1000&>
-      alt="Architectural construction study">
+    <img src="images/Drafing-achievement.jpg"
+      alt="Architectural Drafting Models">
     <div class="drawing-caption">
-      <h3>Material & Structure</h3>
-      <p>Exploration of construction and form</p>
-    </div>
+      <h3>Architectural Drafting</h3>
+      <p>Grade 11 -
+          </p>
+       </div>
   </div>
 
 </div>
@@ -794,7 +799,7 @@ footer span:last-child { color: #aaa; }
       I am an aspiring architectural designer with
       an interest in residential architecture,
       interior spaces, and creative problem-solving.
-          </p>
+    </p>
 
     <p>
       I enjoy exploring how a simple idea can
@@ -811,7 +816,7 @@ footer span:last-child { color: #aaa; }
     </p>
   </div>
 
-</div>
+  </div>
 </section>
 
 <!-- CONTACT -->
@@ -834,7 +839,7 @@ footer span:last-child { color: #aaa; }
 
 <!-- INDIVIDUAL PROJECT PAGE -->
 
-  <section id="project-view">
+<section id="project-view">
 
   <div class="detail-hero">
     <img id="detail-hero-image" src="" alt="">
@@ -850,7 +855,7 @@ footer span:last-child { color: #aaa; }
       ← BACK TO PORTFOLIO
     </button>
 
-    <div class="project-description">
+       <div class="project-description">
       <div>
         <div class="eyebrow">Project Overview</div>
         <h2 id="detail-heading"></h2>
@@ -873,7 +878,7 @@ footer span:last-child { color: #aaa; }
   <button class="close-lightbox"
     onclick="closeLightbox()" aria-label="Close image">×</button>
   <img id="lightbox-image" src="" alt="Expanded project image">
-  </div>
+</div>
 
 <footer>
   <span>© 2026 JULIA HAYES ARCHITECTURE</span>
@@ -889,8 +894,8 @@ const projects = {
   Journey: {
     number: "01 / THE BEGINNING",
     title: "The Start Of The Journey",
-    category: "CAD BASICS AND HAND-DRAWN DRAFTS · INITIAL LAYOUTS",
-    heading: "A study in modern living.",
+      category: "CAD BASICS AND HAND-DRAWN DRAFTS · INITIAL LAYOUTS",
+    heading: "Lines, Forms, & Foundations.",
     description:
       "This conceptual residential project explores the relationship between indoor and outdoor living.>
     images: [
@@ -903,7 +908,7 @@ const projects = {
     number: "02 / ROOMS",
     title: "Spaces In Simplicity",
     category: "PERSONALIZED ROOM DRAFTS · INTERIOR",
-    heading: "Creating a sense of calm.",
+    heading: "The Essentials Of Interior Design.",
     description:
       "This interior concept explores a restrained material palette, natural textures, and functional s>
     images: [
@@ -911,11 +916,12 @@ const projects = {
       "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?auto=format&fit=crop&w=1200&q=85"
     ]
   },
+
   Habitats: {
     number: "03 / HOMES",
     title: "Modern Habitats",
     category: "DRAFTED HOME DESIGINS · STRUCTURES",
-    heading: "Exploring architectural expression.",
+    heading: "Designing The Human Experience.",
     description:
       "This study investigates how proportion, geometry, structure, and material choices influence arch>
     images: [
@@ -927,8 +933,8 @@ const projects = {
   Legans: {
     number: "04 / INSPO",
     title: "Inspiration Of Legans",
-    category: "EXTRODINARY ARCHITECTS · INFORMATION",
-    heading: "Architecture in conversation with nature.",
+         category: "EXTRAORDINARY ARCHITECTS · INFORMATION",
+    heading: "A Study Of Architectural Influence.",
     description:
       "This concept considers the relationship between a home and its natural setting. The design explo>
     images: [
@@ -950,7 +956,7 @@ function openProject(id) {
   document.getElementById("site-header").style.display = "none";
 
   document.getElementById("detail-number").textContent = project.number;
-   document.getElementById("detail-title").textContent = project.title;
+  document.getElementById("detail-title").textContent = project.title;
   document.getElementById("detail-category").textContent = project.category;
   document.getElementById("detail-heading").textContent = project.heading;
   document.getElementById("detail-description").textContent = project.description;
@@ -966,7 +972,7 @@ function openProject(id) {
     const image = document.createElement("img");
     image.src = src;
     image.alt = project.title + " image " + (index + 1);
-    image.loading = "lazy";
+        image.loading = "lazy";
     image.addEventListener("click", () => openLightbox(src));
     gallery.appendChild(image);
   });
@@ -989,7 +995,7 @@ function closeProject() {
 /* IMAGE GALLERY */
 
 function openLightbox(src) {
-    document.getElementById("lightbox-image").src = src;
+  document.getElementById("lightbox-image").src = src;
   document.getElementById("lightbox").classList.add("open");
 }
 
@@ -1002,6 +1008,10 @@ document.getElementById("lightbox").addEventListener("click", function(event) {
 });
 
 document.addEventListener("keydown", function(event) {
+  if (event.key === "Escape") closeLightbox();
+});
+
+  document.addEventListener("keydown", function(event) {
   if (event.key === "Escape") closeLightbox();
 });
 
@@ -1028,8 +1038,6 @@ window.addEventListener("popstate", function() {
 });
 
 </script>
-  
+
 </body>
 </html>
-
-  
