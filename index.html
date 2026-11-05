@@ -5,6 +5,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="description" content="Julia Hayes Architecture — Architectural design portfolio.">
+<link rel="icon" href="favicon.ico">
 <title>Julia Hayes Architecture</title>
 
 <style>
@@ -695,14 +696,14 @@ footer span:last-child { color: #aaa; }
       </div>
     </button>
 
-    <button class="project-card" onclick="openProject('Legans')">
+    <button class="project-card" onclick="openProject('Legends')">
       <div class="project-photo">
         <img src="images/What is Architecture - Julia Hayes - Architectural Drafting.png"
-          alt="Inspiration Of Legans">
+          alt="Inspiration Of Legends">
            <span class="project-number">04</span>
       </div>
       <div class="project-info">
-        <h3>Inspiration Of Legans</h3>
+        <h3>Inspiration Of Legends</h3>
         <p>EXTRAORDINARY ARCHITECTS · INFORMATION</p>
         <span class="view-project">Explore project →</span>
       </div>
@@ -726,7 +727,7 @@ footer span:last-child { color: #aaa; }
   <p>
     I believe meaningful architecture exists at the intersection
     of beauty, functionality, and human experience.
-       A successful space should not only serve a purpose but also
+       A successful space should not only serve a purpose, but also
     create an atmosphere, encourage interaction, and evoke a sense
     of belonging.
        I am particularly interested in the balance between modern
@@ -761,16 +762,16 @@ footer span:last-child { color: #aaa; }
       <p>Grades 9 & 10 -
        For typical students, the proper structure of CAD electives
       is in order from CAD1, CAD2, then Architectural Drafting.
-      However, for myself I excelled differently. I took CAD1 my freshamn year,
-      then my sophomore year I was unable to participate in CAD2 due to my schedule
-      but with communication between myself and my architecture teacher, I was able to
-      sit in during a CAD1 class and independently continue to develop my skills through
+      However, for myself, I excelled differently. I took CAD1 my freshman year,
+      then my sophomore year I was unable to participate in CAD2 due to my schedule,
+      but upon communicating with my architecture teacher, I was able to
+      participate during a CAD1 class and independently continue to develop my skills through
       AutoCAD as well as Chief Architect.</p>
     </div>
   </div>
 
   <div class="drawing-card">
-    <img src="images/Drafing-achievement.jpg"
+    <img src="images/Drafting-achievement.jpg"
       alt="Architectural Drafting Models">
     <div class="drawing-caption">
       <h3>Architectural Drafting</h3>
@@ -810,9 +811,9 @@ footer span:last-child { color: #aaa; }
 
     <p>
       This portfolio is a reflection of my creative
-      developments and the progress I have experienced
-      throughout my youth while also revealing what I tend
-      to accomplishes future in the future.
+      developments, and the progress I have experienced
+      throughout my youth, while also revealing what I tend
+      to accomplish further in the future.
     </p>
   </div>
 
@@ -930,9 +931,9 @@ const projects = {
     ]
   },
 
-  Legans: {
+  Legends: {
     number: "04 / INSPO",
-    title: "Inspiration Of Legans",
+    title: "Inspiration Of Legends",
          category: "EXTRAORDINARY ARCHITECTS · INFORMATION",
     heading: "A Study Of Architectural Influence.",
     description:
@@ -954,7 +955,6 @@ function openProject(id) {
   document.getElementById("home-view").style.display = "none";
   document.getElementById("project-view").style.display = "block";
   document.getElementById("site-header").style.display = "none";
-
   document.getElementById("detail-number").textContent = project.number;
   document.getElementById("detail-title").textContent = project.title;
   document.getElementById("detail-category").textContent = project.category;
@@ -1036,8 +1036,6 @@ window.addEventListener("popstate", function() {
     document.getElementById("site-header").style.display = "block";
   }
 });
-
 </script>
-
 </body>
 </html>
