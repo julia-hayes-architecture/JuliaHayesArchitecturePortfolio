@@ -955,6 +955,7 @@ function openProject(id) {
   document.getElementById("project-view").style.display = "block";
   document.getElementById("site-header").style.display = "none";
   document.getElementById("detail-number").textContent = project.number;
+  document.getElementById("detail-number").style.color = (id === "Simplicity") ? "#000" : "";
   document.getElementById("detail-title").textContent = project.title;
   document.getElementById("detail-category").textContent = project.category;
   document.getElementById("detail-heading").textContent = project.heading;
